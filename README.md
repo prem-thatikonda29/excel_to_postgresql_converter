@@ -31,15 +31,19 @@ A web application that allows users to upload and process Excel files (XLSX, XLS
 harrier/
 ├── backend/
 │   ├── config/
-│   │   └── database.js
+│   │   └── database.js             # configuration of database
+│   ├── controllers/
+│   │   └── uploadController.js     # controller functions for file conversions, storing in database etc.
+│   ├── middleware/
+│   │   └── multerConfig.js         # middleware to hanle file uploads using multer
 │   ├── routes/
 │   │   └── uploadRoutes.js
-│   ├── uploads/          # Temporary storage for uploaded files
-│   ├── .env             # Environment variables
+│   ├── uploads/                    # Temporary storage for uploaded files
+│   ├── .env                        # Environment variables
 │   ├── .gitignore
 │   ├── package.json
 │   └── server.js
-└── frontend/            # React application (Vite)
+└── frontend/                        # React application (Vite)
 ```
 
 ## Setup Instructions
