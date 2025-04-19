@@ -2,6 +2,9 @@
 
 A web application that allows users to upload and process Excel files (XLSX, XLS, CSV) and store the data in a PostgreSQL database.
 
+Team members:
+Prem Thatikonda | Muhammed Faheem | Manmeet Singh
+
 ## Features
 
 - Excel file upload and processing
