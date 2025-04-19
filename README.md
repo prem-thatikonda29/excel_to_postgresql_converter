@@ -72,7 +72,7 @@ PORT=5500
 
 4. Start the backend server:
 ```bash
-npm start
+npm run dev
 ```
 
 ### Frontend Setup
@@ -92,6 +92,7 @@ npm install
 npm run dev
 ```
 
+The backend will be available at `http://localhost:5500` by default
 The frontend will be available at `http://localhost:5173`
 
 ## API Endpoints
